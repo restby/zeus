@@ -2,7 +2,7 @@
   "name": "zeus",
   "version": "1.0.0",
   "private": true,
-  "description": "Проект «ZEUS», из рассылки от HTML Academy, для партфолио",
+  "description": "Проект «ZEUS», из рассылки от HTML Academy, для портфолио",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.1.x",
