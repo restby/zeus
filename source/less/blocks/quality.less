@@ -1,7 +1,12 @@
 .quality {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 1728px;
+  box-sizing: border-box;
   position: relative;
-  background-color: red;
+  padding-left: 215px;
+  padding-top: 90px;
   background-image: url("../../img/bg-quality.png");
   background-repeat: no-repeat;
   background-position: 0 -145px;
@@ -20,8 +25,21 @@
 .quality__desc {
   .reset-ma-pa();
   width: 900px;
+  margin-bottom: 56px;
 }
 
 .quality__link {
+  display: block;
+  width: 222px;
+  height: 57px;
   .reset-link();
+  margin-left: 2px;
+  margin-bottom: 87px;
+  padding-left: 58px;
+  padding-top: 5px;
+  background-color: @link-color;
+  border: 2px solid @link-border-color;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-sizing: border-box;
 }
