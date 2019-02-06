@@ -7,25 +7,25 @@
 </head>
 <body>
   <header class="header">
-    <a class="logo">
-    <!-- <img class="logo__img" width="153" height="162" src="img/header-logo.png" alt="logo of beer ZEUS"> -->
-    </a>
+    <a class="logo" aria-label="home page"></a>
     <h1 class="header__name">beer</h1>
     <b class="header__slogan">Now there's a temporary solution.</b>
     <small class="header__text">Dan Castellaneta</small>
     <b class="header__pointer">Schroll to view more</b>
   </header>
-
   <main class="content">
     <div class="brewing">
       <h2 class="brewing__title">The joy of brewing</h2>
       <p class="brewing__desc">We develop recipes, imported raw materials, experiment, and spills brew beer in the friendly breweries.</p>
-      <img class="brewing__img" width="589" height="633" src="img/photo1.png" alt="no content img">
+      <picture>
+        <source type="image/webp" srcset="img/photo1.webp">
+        <img class="brewing__img" width="589" height="633" src="img/photo1.png" alt="">
+      </picture>
     </div>
     <div class="quality">
       <h2 class="quality__title">Zeus - Original Quality</h2>
       <p class="quality__desc">This fancy beer in the style of American India Pale Ale. Red-copper-bodied, with citrus flavor and aroma, floral, resin, pine and fruit derived from American hops.</p>
-      <a class="quality__link" href="#">CHECK MORE</a>
+      <a class="quality__link" href="#" aria-label="link to check more">CHECK MORE</a>
     </div>
     <div class="content-photo">
       <b class="content-photo__slogan">Lorem ipsum dolor sit amet</b>
@@ -36,13 +36,18 @@
       </p>
       <p class="handcrafting__desc  handcrafting__desc--2">Morbi commodo, lectus ac vulputate pharetra, libero elit aliquet tortor, ac imperdiet tortor nibh eu nunc.</p>
     </div>
-    <img class="content__img  content__img--boutle" width="420" height="1076" src="img/beer.png" alt="boutle picture">
-    <img class="content__img  content__img--glass" width="980" height="1013" src="img/photo3.jpg" alt="glass picture">
+    <picture>
+      <source type="image/webp" srcset="img/beer.webp">
+      <img class="content__img  content__img--boutle" width="420" height="1076" src="img/beer.png" alt="boutle picture">
+    </picture>
+    <picture>
+      <source type="image/webp" srcset="img/photo3.webp">
+      <img class="content__img  content__img--glass" width="980" height="1013" src="img/photo3.jpg" alt="glass picture">
+    </picture>
     <h2 class="content__slogan">Start your journey now</h2>
     <p class="content__desc">Beer, now there’s a temporary solution</p>
-    <a href="#" class="content__link">ORDER ZEUS</a>
+    <a href="#" class="content__link" aria-label="link to order zeus">ORDER ZEUS</a>
   </main>
-
   <script src="js/main.js"></script>
 </body>
 </html>
